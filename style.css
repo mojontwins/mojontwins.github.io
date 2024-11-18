@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Appareo';
+  font-style: normal;
+  src: url('assets/fonts/Appareo-Black.ttf') format('truetype'),
+       url('assets/fonts/Appareo-Black.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'Appareo';
+  font-style: italic;
+  src: url('assets/fonts/Appareo-BlackItalic.ttf') format('truetype'),
+       url('assets/fonts/Appareo-BlackItalic.woff2') format('woff2'),
+}
+
+body {
+	font-family: Appareo, serif;
+	background-color: #eee;
+	color: #222;
+
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+
+}
+
+main {
+	flex: auto;
+	height: 100%;
+	overflow-y: hidden;
+
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+
+}
+
+.inside {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+	padding: 0 16px;
+	border: 0;
+	vertical-align: baseline;
+	line-height: 1.5;
+	box-sizing: border-box;
+}
+
+.vertcontents {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	box-sizing: border-box;;
+}
